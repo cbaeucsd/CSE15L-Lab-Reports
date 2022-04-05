@@ -21,3 +21,14 @@
 #toc_container li, #toc_container ul, #toc_container ul li{
     list-style: outside none none !important;
 }
+details {
+  display: inline;
+}
+
+summary {
+  display: inline;
+}
+
+details[open] summary {
+  display: none;
+}
