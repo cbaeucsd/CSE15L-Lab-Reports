@@ -9,7 +9,7 @@ Visual Studio supports Windows, macOS, and Linux.
   <br/>
 Download and install VSCode at https://code.visualstudio.com/.
 <br/><br/>
-Press the button inside the red rectangle to download, use the dropdown button on the rightside to switch installers if needed(ex. to a Linux or macOS installer).
+Press the button inside the red rectangle to download, use the dropdown button on the rightside to switch installers if necessary(ex. to a Linux or macOS installer).
 
 <img src="/docs/assets/images/vsinstall.png" width="800" height="450"> 
 
