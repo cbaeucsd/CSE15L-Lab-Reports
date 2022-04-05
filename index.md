@@ -1,8 +1,7 @@
 ## CSE15L Tutorial: Setting Up Remote Access
-<button class="accordion">Section 1</button>
-<div class="panel">
-
-### Installing VSCode
+<details>
+  <summary>Installing VSCode</summary>
+  
 Visual Studio Code is a code editing program that also has an integrated terminal, which will allow us to seamlessly write code and upload it to a remote server. \
 Visual Studio supports Windows, macOS, and Linux. \
 Download and install VSCode at https://code.visualstudio.com/ 
@@ -16,7 +15,7 @@ After you are finished installing and launch Visual Studio Code, you should be g
 
 <img src="/docs/assets/images/vsstart.png" width="800" height="600">
 
-</div>
+</details>
 
 ### Remotely Connecting
 
