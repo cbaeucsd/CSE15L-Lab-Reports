@@ -13,6 +13,7 @@ details > summary::-webkit-details-marker {
 
 details > summary::before {
     content: "\002B";
+    font-size: 95%;
 }
 
 details[open] > summary::before {
