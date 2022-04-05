@@ -13,7 +13,7 @@ Press the button inside the red rectangle to download, use the dropdown button o
 <img src="/docs/assets/images/vsinstall.png" width="800" height="450"> 
 
 <br/><br/>
-After you are finished installing and launch Visual Studio Code, you should be greeted with a page similar to the one below
+After you are finished installing and launch Visual Studio Code, you should be greeted with a page similar to the one below.
 <img src="/docs/assets/images/vsstart.png" width="800" height="600">
 
 </details>
