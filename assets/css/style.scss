@@ -34,14 +34,9 @@ details > summary::before {
 }
 
 details[open] > summary::before {
-    content: "\002B";
+    content: "\2212";
 }
 
-details {
-    border: 1px solid gray;
-    border-radius: 0.2rem;
-    padding: 0.5rem;
-}
 
 details[open] > summary {
     margin-bottom: 0.5rem;
