@@ -24,7 +24,7 @@ Press the button inside the red rectangle to download, use the dropdown button o
 
 <br/><br/>
 After you are finished installing and launch Visual Studio Code, you should be greeted with a page similar to the one below.
-<img src="/docs/assets/images/vsstart.png" width="800"">
+<img src="/docs/assets/images/vsstart.png" width="800">
 
 </details>
 
@@ -38,7 +38,7 @@ After you are finished installing and launch Visual Studio Code, you should be g
     
   <h3 id="Header2b">Looking Up Your Account</h3>
   You can lookup your course-specific account here: https://sdacs.ucsd.edu/~icc/index.php </br>
-  <img src="/docs/assets/images/accountlookup.png" width="800""> 
+  <img src="/docs/assets/images/accountlookup.png" width="800"> 
    
    
 </details>
