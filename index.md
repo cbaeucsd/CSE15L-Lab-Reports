@@ -45,14 +45,6 @@ After you are finished installing and launch Visual Studio Code, you should be g
 <img src="/docs/assets/images/vsstart.png" width="800" height="600">  
 </div>
 
-
-<details open>
-  <summary><h1 style="font-size:25px" id="Header1">Installing VSCode</h1></summary>
-  
-
-
-</details>
-
 <details open>
    <summary><h1 style="font-size:25px" id="Header2">Remotely Connecting</h1></summary>
   
