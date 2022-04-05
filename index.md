@@ -1,4 +1,5 @@
 ## CSE15L Tutorial: Setting Up Remote Access
+This tutorial will guide you on how to set up remote access for CSE15L. We will set up the necessary programs and do a demonstration of remotely connecting and transferring files between your computer and a server.
 <details>
   <summary><b>Installing VSCode</b></summary>
   
