@@ -1,9 +1,10 @@
 ## CSE15L Tutorial: Setting Up Remote Access
 This tutorial will guide you on how to set up remote access for CSE15L. We will set up the necessary programs and do a demonstration of remotely connecting and transferring files between your computer and a server.
+[[_TOC_]]
 <details open>
   <summary><b>Installing VSCode</b></summary>
   
-Visual Studio Code is a code editing program that also has an integrated terminal, which will allow us to seamlessly write code and upload it to a remote server. 
+Visual Studio Code is a code editing program that with an integrated terminal, which will allow us to seamlessly write code and upload it to a remote server. 
   <br/>
 Visual Studio supports Windows, macOS, and Linux. 
   <br/>
