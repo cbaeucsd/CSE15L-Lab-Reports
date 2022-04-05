@@ -1,4 +1,4 @@
-## CSE15L Tutorial: Setting Up Remote Access
+<h1>CSE15L Tutorial: Setting Up Remote Access</h1>
 This tutorial will guide you on how to set up remote access for CSE15L. We will set up the necessary programs and do a demonstration of remotely connecting and transferring files between your computer and a server.
 <div id="toc_container">
 <p class="toc_title">Contents</p>
