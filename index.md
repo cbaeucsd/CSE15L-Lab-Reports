@@ -4,7 +4,7 @@ This tutorial will guide you on how to set up remote access for CSE15L. We will 
 <p class="toc_title">Contents</p>
 <ul class="toc_list">
 <li><a href="#Header1">Installing VSCode</a></li>
-<li><a href="#Second_Point_Header">2 Second Point Header</a></li>
+<li><a href="#Header2">Remotely Connecting</a></li>
 <li><a href="#Third_Point_Header">3 Third Point Header</a></li>
 </ul>
 </div>
@@ -29,7 +29,7 @@ After you are finished installing and launch Visual Studio Code, you should be g
 </details>
 
 <details open>
-  <summary><b>Remotely Connecting</b></summary>
+   <summary><h1 id="Header2"><b>Remotely Connecting</b></h1></summary>
   
 </details>
 
