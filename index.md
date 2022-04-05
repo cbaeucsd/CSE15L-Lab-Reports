@@ -17,5 +17,8 @@ After you are finished installing and launch Visual Studio Code, you should be g
 
 </details>
 
-### Remotely Connecting
+<details>
+  <summary><b>Remotely Connecting</b></summary>
+  
+  </details>
 
