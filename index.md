@@ -10,15 +10,15 @@ This tutorial will guide you on how to set up remote access for CSE15L. We will 
 </div>
 
 <details open>
-  <summary><h1 style="font-size:25px" id="Header1">Installing VSCode</h1></summary>
+  <summary><h2 id="Header1">Installing VSCode</h2></summary>
   
 Visual Studio Code is a code editing program that with an integrated terminal, which will allow us to seamlessly write code and upload it to a remote server. 
   <br/>
-Visual Studio supports Windows, macOS, and Linux. 
+Visual Studio Code supports Windows, macOS, and Linux. 
   <br/>
 Download and install VSCode at https://code.visualstudio.com/.
 <br/><br/>
-Press the button inside the red rectangle to download, use the dropdown button on the rightside to switch installers if necessary(ex. to a Linux or macOS installer).
+Press the button inside the red rectangle to download, use the dropdown button on the right to switch installers if necessary(ex. to a Linux or macOS installer).
 
 <img src="/docs/assets/images/vsinstall.png" width="800" height="450"> 
 
@@ -29,6 +29,16 @@ After you are finished installing and launch Visual Studio Code, you should be g
 </details>
 
 <details open>
-   <summary><h1 style="font-size:25px" id="Header2">Remotely Connecting</h1></summary>
+   <summary><h2 id="Header2">Remotely Connecting</h2></summary>
+    We will now use the terminal in Visual Studio Code to connect to your course-specific account. Before we do however, there are some more things to set up. 
   
+   <h3 id="Header2a">Install OpenSSH (Windows only)</h3>
+    If you are on Windows, install OpenSSH by following the instructions in this link https://docs.microsoft.com/en-us/windows-server/administration/openssh/openssh_install_firstuse. </br>
+    You only need to do the steps in either <b>Install OpenSSH using Windows Settings</b> or <b>Install OpenSSH using PowerShell</b>.
+    
+  <h3 id="Header2b">Looking Up Your Account</h3>
+  You can lookup your course-specific account here: https://sdacs.ucsd.edu/~icc/index.php </br>
+  <img src="/docs/assets/images/accountlookup.png" width="800" height="450"> 
+   
+   
 </details>
