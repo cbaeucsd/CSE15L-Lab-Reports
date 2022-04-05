@@ -32,14 +32,12 @@ details > summary::-webkit-details-marker {
 
 details > summary::before {
     content: "\002B";
-    font-size: 95%;
-    line-height: 2px;
+    font-size: large;
 }
 
 details[open] > summary::before {
     content: "\2212";
-    font-size: 95%;
-    line-height: 2px;
+    font-size: large;
 }
 
 
