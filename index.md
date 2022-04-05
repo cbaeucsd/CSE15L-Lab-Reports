@@ -21,5 +21,5 @@ After you are finished installing and launch Visual Studio Code, you should be g
 <details>
   <summary><b>Remotely Connecting</b></summary>
   
-  </details>
+</details>
 
