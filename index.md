@@ -1,6 +1,6 @@
 ## CSE15L Tutorial: Setting Up Remote Access
 <details>
-  <summary>Installing VSCode</summary>
+  <summary><b>Installing VSCode</b></summary>
   
 Visual Studio Code is a code editing program that also has an integrated terminal, which will allow us to seamlessly write code and upload it to a remote server. \
 Visual Studio supports Windows, macOS, and Linux. \
