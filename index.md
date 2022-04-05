@@ -3,9 +3,9 @@ This tutorial will guide you on how to set up remote access for CSE15L. We will 
 <div id="toc_container">
 <p class="toc_title">Contents</p>
 <ul class="toc_list">
-<li><a href="#Header1">Installing VSCode</a></li>
-<li><a href="#Header2">Remotely Connecting</a></li>
-<li><a href="#Third_Point_Header">3 Third Point Header</a></li>
+<li><a href="#Header1">1 Installing VSCode</a></li>
+<li><a href="#Header2">2 Remotely Connecting</a></li>
+<li><a href="#Third_Point_Header">3 Trying Some Commands</a></li>
 </ul>
 </div>
 
