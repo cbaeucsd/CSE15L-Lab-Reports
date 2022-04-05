@@ -32,4 +32,4 @@ After you are finished installing and launch Visual Studio Code, you should be g
    <summary><h1 style="font-size:25px" id="Header2">Remotely Connecting</h1></summary>
   
 </details>
-
+<script src="js/jquery.min.js"></script>
