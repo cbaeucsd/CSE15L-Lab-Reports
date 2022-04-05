@@ -31,12 +31,12 @@ details > summary::-webkit-details-marker {
 }
 
 details > summary::before {
-    content: "\002B";
+    content: "\002B ";
     font-size: large;
 }
 
 details[open] > summary::before {
-    content: "\2212";
+    content: "\2212 ";
     font-size: large;
 }
 
