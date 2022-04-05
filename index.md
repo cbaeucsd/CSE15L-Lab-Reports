@@ -10,7 +10,7 @@ This tutorial will guide you on how to set up remote access for CSE15L. We will 
 </div>
 
 <details open>
-  <summary><h1 style="font-size:10vw" id="Header1">Installing VSCode</h1></summary>
+  <summary><h1 style="font-size:14px" id="Header1">Installing VSCode</h1></summary>
   
 Visual Studio Code is a code editing program that with an integrated terminal, which will allow us to seamlessly write code and upload it to a remote server. 
   <br/>
