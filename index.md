@@ -17,5 +17,6 @@ After you are finished installing and launch Visual Studio Code, you should be g
 <img src="/docs/assets/images/vsstart.png" width="800" height="600">
 
 </div>
+
 ### Remotely Connecting
 
