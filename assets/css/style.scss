@@ -24,7 +24,6 @@
 
 details > summary {
     list-style-type: none;
-    display: inline;
 }
 
 details > summary::-webkit-details-marker {
@@ -48,4 +47,6 @@ details[open] > summary {
     margin-bottom: 0.5rem;
 }
 
-
+details summary > * { 
+  display: inline;
+}
