@@ -166,11 +166,11 @@ $ scp WhereAmI.java cs15lsp22abc@ieng6.ucsd.edu:~/
     <p>
     To avoid the tedious step of entering a password everytime we <code>ssh</code> or <code>scp</code>, we will set up an SSH key on the server and your computer. A public key on the server and a private key in your client can be used instead of a password to securely log in to the server.
     </p>
-
     <p>On your client, run the command <code>$ ssh-keygen</code> to start generating a key pair. The process should look something like this:</p>
      <img src="/docs/assets/images/SSHKeyGen.png" width="800"><br>
     <p>Note: You are not required to and should not set a passphrase.</p><br>
     You should now have two files in the directory the command was executed, id_rsa and id_rsa.pub. We now need to copy the public key to the server. You can do so wit h the steps below:
+    
       <pre>
   <code>
 $ ssh cs15lsp22abc@ieng6.ucsd.edu
