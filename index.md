@@ -149,6 +149,7 @@ class WhereAmI {
 }
   </code>
 </pre> 
+    
 Run this file using javac and java on your computer and take a look at the output.<br/><br/>
 Note: To use javac and java in Visual Studio, you will likely have to install an extension called <b>Extension Pack for Java</b>.
 
