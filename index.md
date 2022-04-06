@@ -20,32 +20,23 @@ This tutorial will guide you on how to set up remote access for CSE15L. We will 
 <details open>
   <summary><h2 id="Installing_VSCode">Installing VSCode</h2></summary>
   
-Visual Studio Code is a code editing program with an integrated terminal, which will allow us to seamlessly write code and upload it to a remote server. 
-  <br/>
-Visual Studio Code supports Windows, macOS, and Linux. 
-  <br/>
-Download and install VSCode at <a href="https://code.visualstudio.com/">https://code.visualstudio.com/</a>.
-<br/><br/>
-Press the button inside the red rectangle to download, use the dropdown button on the right to switch installers if necessary(ex. to a Linux or macOS installer).
-<br/>
-<img src="/docs/assets/images/vsinstall.png" width="800"> 
-
-<br/><br/>
-After you are finished installing and launch Visual Studio Code, you should be greeted with a page similar to the one below.
-<br/>
+<p>Visual Studio Code is a code editing program with an integrated terminal, which will allow us to seamlessly write code and upload it to a remote server. </p>
+<p>Visual Studio Code supports Windows, macOS, and Linux. </p>
+<p>Download and install VSCode at <a href="https://code.visualstudio.com/">https://code.visualstudio.com/</a>.</p>
+<p>Press the button inside the red rectangle to download, use the dropdown button on the right to switch installers if necessary(ex. to a Linux or macOS installer).</p>
+<img src="/docs/assets/images/vsinstall.png" width="800"> <br>
+<p>After you are finished installing and launch Visual Studio Code, you should be greeted with a page similar to the one below.</p>
 <img src="/docs/assets/images/vsstart.png" width="800">
-
 </details>
 
 <details open>
    <summary><h2 id="Remotely_Connecting">Remotely Connecting</h2></summary>
-    We will now use the terminal in Visual Studio Code to connect to your course-specific account. Before we do however, there are some more things to set up. 
-  
+    <p>We will now use the terminal in Visual Studio Code to connect to your course-specific account. Before we do however, there are some more things to set up.</p>  
    <h3 id="Install_OpenSSH">Install OpenSSH (Windows only)</h3>
-    If you are on Windows, install OpenSSH by following the instructions in this link <br/>
+    <p>If you are on Windows, install OpenSSH by following the instructions in this link </p>
   <a href="https://docs.microsoft.com/en-us/windows-server/administration/openssh/openssh_install_firstuse">https://docs.microsoft.com/en-us/windows-server/administration/openssh/openssh_install_firstuse</a>. 
   <br/>
-    You only need to do the steps in either <b>Install OpenSSH using Windows Settings</b> or <b>Install OpenSSH using PowerShell</b>.
+    <p>You only need to do the steps in either <b>Install OpenSSH using Windows Settings</b> or <b>Install OpenSSH using PowerShell</b></p>.
     
   <h3 id="Looking_Up_Your_Account">Looking Up Your Account</h3>
   You can lookup your course-specific account here: <a href="https://sdacs.ucsd.edu/~icc/index.php">https://sdacs.ucsd.edu/~icc/index.php</a> 
@@ -182,7 +173,7 @@ $ scp WhereAmI.java cs15lsp22abc@ieng6.ucsd.edu:~/
     To avoid the tedious step of entering a password everytime we <code>ssh</code> or <code>scp</code>, we will set up an SSH key on the server and your computer. A public key on the server and a private key in your client can be used instead of a password to securely log in to the server.<br/><br/>
 
     On your client, run the command <code>$ ssh-keygen</code> to start generating a key pair. The process should look something like this:<br/>
-     <img src="/docs/assets/images/SSHKeyGen.png" width="800">
+     <img src="/docs/assets/images/SSHKeyGen.png" width="800"><br/>
     Note: You are not required to and should not set a passphrase.<br/><br/>
     You should now have two files in the directory the command was executed, id_rsa and id_rsa.pub. We now need to copy the public key to the server. You can do so wit h the steps below:
       <pre>
