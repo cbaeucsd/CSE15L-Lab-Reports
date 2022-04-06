@@ -1,5 +1,4 @@
 
-    <p>We will now use Secure Copy(SCP) to copy files from your computer to the remote server. <br>
-    First, we will create a sample file to upload to the server. <br></p>
+    <p>We will now use Secure Copy(SCP) to copy files from your computer to the remote server.</p>
 
  
