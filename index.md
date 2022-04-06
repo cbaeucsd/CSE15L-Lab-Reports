@@ -137,7 +137,7 @@ Note what happens and try to guess what these commands do.
     First, we will create a sample file to upload to the server. <br/>
     Using Visual Studio Code, Create a file called <code>WhereAmI.java</code> and paste the contents in the code block below:
     
-    <pre>
+ <pre>
   <code>
 class WhereAmI {
   public static void main(String[] args) {
