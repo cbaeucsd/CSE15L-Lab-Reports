@@ -70,7 +70,7 @@ Are you sure you want to continue connecting (yes/no/[fingerprint])?
 </pre>    
 Type yes to continue.<br><br>
     
- After this command it will prompt you with a password which you will now enter. Don't worry if it looks like nothing is changing on the terminal, your password input is being properly received and the lack of response is a security feature.  <br>
+ <p>After this command it will prompt you with a password which you will now enter. Don't worry if it looks like nothing is changing on the terminal, your password input is being properly received and the lack of response is a security feature.</p>  <br>
  If you have inputed your login and password correctly, you should now see this in the terminal: <br>
  <img src="/docs/assets/images/successlogin.png" width="800">
 </details>
@@ -88,7 +88,7 @@ Type yes to continue.<br><br>
   $ cp
   </code>
 </pre>   
-on the terminal. Afterwards, log out of the remote server and try these commands again. Note what each command does while logged into the remote server and on your computer. <br>
+on the terminal. Afterwards, log out of the remote server and try these commands again. Note what each command does while logged into the remote server and on your computer. <br><br>
 Hint: to log out of the remote server, you can either:<br/>
     <ul>
   <li>Press Ctrl + D</li>
@@ -140,7 +140,7 @@ Note: To use javac and java in Visual Studio, you will likely have to install an
 Screenshot of running WhereAmI.java on the computer:
  <img src="/docs/assets/images/WhereAmI.png" width="800">    
     
-While logged out from the server, run this command from the directory where the file is contained:
+<p>While logged out from the server, run this command from the directory where the file is contained:</p>
      <pre>
   <code>
 $ scp WhereAmI.java cs15lsp22abc@ieng6.ucsd.edu:~/
