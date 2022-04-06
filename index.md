@@ -135,7 +135,7 @@ Note what happens and try to guess what these commands do.
     
     We will now use Secure Copy(SCP) to copy files from your computer to the remote server. <br/>
     First, we will create a sample file to upload to the server. <br/>
-    Using Visual Studio Code, Create a file called WhereAmI.java and paste the contents in the code block below:
+    <p>Using Visual Studio Code, Create a file called <code>WhereAmI.java</code> and paste the contents in the code block below:</p>
     
  <pre>
   <code>
@@ -163,7 +163,7 @@ $ scp WhereAmI.java cs15lsp22abc@ieng6.ucsd.edu:~/
   </code>
 </pre>    
  replacing abc with your specific account letters. Enter your password when prompted. <br/><br/>
-  Log into your account with <code>ssh</code>, and use the command <code>ls</code>. You should see the file in your home directory. You can now run it on the server using the same commands as before. Even if your computer doesn't have Java, you will be able to run your file on the server because it has Java installed.<br/>
+  <p>Log into your account with <code>ssh</code>, and use the command <code>ls</code>. You should see the file in your home directory. You can now run it on the server using the same commands as before. Even if your computer doesn't have Java, you will be able to run your file on the server because it has Java installed.</p><br/>
   Compare the output from running it on the server and from running it on your computer. What does this tell you about <code>getProperty</code>?<br/><br/>
    Before proceeding to the next section, try this activity:
   <ol>
