@@ -48,21 +48,23 @@ After you are finished installing and launch Visual Studio Code, you should be g
   <img src="/docs/assets/images/accountlookup2.png" width="800"> <br/>
   Note: If you haven't already, reset your account password, using the temporary password given to you via email as your current password. 
    <h3 id="Header2c">Connecting with Visual Studio Terminal</h3>
-  Launch Visual Studio code. To access the terminal, press Ctrl/Command + `, or alternatively go to the top-left menu and select Terminal &rarr New Terminal. You should see the terminal in the bottom half of the program like so:
+  <p>Launch Visual Studio code. To access the terminal, press Ctrl/Command + `, or alternatively go to the top-left menu and select Terminal &#8594; New Terminal. You should see the terminal in the bottom half of the program like so:</p>
   <img src="/docs/assets/images/terminal.png" width="800">
   <br/>
-  Now we will login with the command 
+  Now we will login with the command:
   <pre>
   <code>
-  $ssh accountusername@ieng6.ucsd.edu
+  $ ssh accountusername@ieng6.ucsd.edu
   </code>
 </pre>
 where accountusername is the previously retrieved name from  the account lookup. <br/>
- Your login command will probably look something like this
+ Your login command will probably look something like this:
     <pre>
   <code>
-  $ssh cse15lsp22abc@ieng6.ucsd.edu
+  $ ssh cse15lsp22abc@ieng6.ucsd.edu
   </code>
 </pre>
+ Note: Do not type or add the $ sign, it is just a symbol that means that shell is accepting commands. 
+  <br/><br/>
  After this command it will prompt you with a password which you will now enter. Don't worry if it looks like nothing is changing on the terminal, your password input is being properly received and the lack of response is a security feature.  
 </details>
