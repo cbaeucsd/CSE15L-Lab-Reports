@@ -6,7 +6,7 @@ This tutorial will guide you on how to set up remote access for CSE15L. We will 
 <li>1 <a href="#Installing_VSCode">Installing VSCode</a></li>
 <li>2 <a href="#Remotely_Connecting">Remotely Connecting</a></li>
     <ul>
-    <li>2.1 <a href="#Install_OpenSSH">1.1 Install OpenSSH</a></li>
+    <li>2.1 <a href="#Install_OpenSSH">Install OpenSSH</a></li>
     <li>2.2 <a href="#Looking_Up_Your_Account">Looking Up Your Account</a></li>
     <li>2.3 <a href="#Connecting_with_Visual_Studio_Terminal">Connecting with Visual Studio Terminal</a></li>      
     </ul>
