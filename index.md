@@ -179,7 +179,7 @@ $ scp WhereAmI.java cs15lsp22abc@ieng6.ucsd.edu:~/
 <details open>
    <summary><h2 id="Setting_An_SSH_Key">Setting An SSH Key</h2></summary>
     
-    To avoid the tedious step of entering a password everytime we <code>ssh</code> or <code>scp</code>, we will set up an SSH key on the server and your computer. A public key on the server and a private key in your client can be used instead of a password to securely log in to the server.<br/><br/>
+    To avoid the tedious step of entering a password everytime we ssh or scp, we will set up an SSH key on the server and your computer. A public key on the server and a private key in your client can be used instead of a password to securely log in to the server.<br/><br/>
 
     On your client, run the command <code>$ ssh-keygen</code> to start generating a key pair. The process should look something like this:<br/>
      <img src="/docs/assets/images/SSHKeyGen.png" width="800">
