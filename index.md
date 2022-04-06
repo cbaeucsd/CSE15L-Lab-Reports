@@ -8,7 +8,7 @@ This tutorial will guide you on how to set up remote access for CSE15L. We will 
     <ul>
     <li>2.1 <a href="#Install_OpenSSH">Install OpenSSH</a></li>
     <li>2.2 <a href="#Looking_Up_Your_Account">Looking Up Your Account</a></li>
-    <li>2.3 <a href="#Connecting_with_Visual_Studio_Terminal">Connecting with Visual Studio Terminal</a></li>      
+    <li>2.3 <a href="#Connecting_with_Visual_Studio_Code_Terminal">Connecting with Visual Studio Code Terminal</a></li>      
     </ul>
 <li>3 <a href="#Trying_Some_Commands">Trying Some Commands</a></li>
 <li>4 <a href="#Moving_Files_With_SCP">Moving Files With SCP</a></li>
@@ -43,7 +43,7 @@ This tutorial will guide you on how to set up remote access for CSE15L. We will 
   Your account username is in the green box below. 
   <img src="/docs/assets/images/accountlookup2.png" width="800"> <br><br>
   <p>Note: If you haven't already, reset your account password, using the temporary password given to you via email as your current password. </p>
-   <h3 id="Connecting_with_Visual_Studio_Terminal">Connecting with Visual Studio Terminal</h3>
+   <h3 id="Connecting_with_Visual_Studio_Code_Terminal">Connecting with Visual Studio Code Terminal</h3>
   <p>Launch Visual Studio code. To access the terminal, press Ctrl/Command + `, or alternatively go to the top-left menu and select <br/> Terminal &#8594; New Terminal. You should see the terminal in the bottom half of the program like so:</p>
   <img src="/docs/assets/images/terminal.png" width="800"><br><br>
   <p>Now we will login with the command:
