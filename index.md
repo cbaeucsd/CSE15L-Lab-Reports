@@ -136,7 +136,7 @@ class WhereAmI {
 </pre> 
     
 Run this file using javac and java on your computer and take a look at the output.<br><br>
-Note: To use javac and java in Visual Studio, you will likely have to install an extension called <b>Extension Pack for Java</b>.
+Note: To use javac and java in Visual Studio Code, you will likely have to install an extension called <b>Extension Pack for Java</b>.
 
 Screenshot of running WhereAmI.java on the computer:
  <img src="/docs/assets/images/WhereAmI.png" width="800">    
@@ -168,7 +168,7 @@ $ scp WhereAmI.java cs15lsp22abc@ieng6.ucsd.edu:~/
     </p>
     <p>On your client, run the command <code>$ ssh-keygen</code> to start generating a key pair. The process should look something like this:</p>
      <img src="/docs/assets/images/SSHKeyGen.png" width="800"><br>
-    <p>Note: You are not required to and should not set a passphrase.</p><br>
+    <p>Note: You are not required to and should not set a passphrase.</p>
     You should now have two files in the directory the command was executed, id_rsa and id_rsa.pub. We now need to copy the public key to the server. You can do so with the steps below:    
       <pre>
   <code>
