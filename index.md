@@ -117,17 +117,13 @@ Some more specific useful commands you can try are:
   $ ls -lat
   $ ls -a
   $ ls &lt;directory&gt;
+  $ cp /home/linux/ieng6/cs15lsp22/public/hello.txt ~/
+  $ cat /home/linux/ieng6/cs15lsp22/public/hello.txt  
   </code>
 </pre>
 
 where &lt;directory&gt; is /home/linux/ieng6/cs15lsp22/cs15lsp22abc, where the abc is one of the other group members’ username.
-
-     <pre>
-  <code>
-  $ cp /home/linux/ieng6/cs15lsp22/public/hello.txt ~/
-  $ cat /home/linux/ieng6/cs15lsp22/public/hello.txt
-  </code>
-</pre>  
+ 
 Note what happens and try to guess what these commands do. 
     <br/><br/>
   Terminal output after some tests on the server:
@@ -204,6 +200,33 @@ Repeat the timing activity of editing and running WhereAmI.java now that you don
  <details open>
    <summary><h2 id="Optimizing_Remote_Running">Optimizing Remote Running</h2></summary>
     As a challenge, try to find the quickest, simplest, and/or most pleasant way to make a local edit to WhereAmI.java and copy and run it on the server.
+    <br/><br/>
+    Some hints:<br/>
+    You can write a command in quotes after an ssh command. This will cause the command to run after logging in, and will automatically log out afterwards. Here is an example:
+      <pre>
+  <code>
+$ ssh cs15lsp22zz@ieng6.ucsd.edu "ls"
+  </code>
+</pre>
+Semicolons can be used to run miltiple commands on one line. Here is an example:
+      <pre>
+  <code>
+$ cp WhereAmI.java OtherMain.java; javac OtherMain.java; java WhereAmI
+  </code>
+</pre>    
+<br/><br/>
+The best I could come up with is:
+<pre>
+  <code>
+$ scp WhereAmI.java cs15lsp22abc@ieng6.ucsd.edu:~/  
+$ ssh cs15lsp22abc@ieng6.ucsd.edu "javac WhereAmI.java; java WhereAmI"
+  </code>
+</pre>    
+<br/>
+Can you do better?
+  <br/><br/>  
+Screenshot of one run with my commands:
+ <img src="/docs/assets/images/Challenge.png" width="800">   
     
     
 
