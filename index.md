@@ -115,8 +115,7 @@ Note what happens and try to guess what these commands do. <br><br>
   </details>
 
 <details open>
-   <summary><h2 id="Moving_Files_With_SCP">Moving Files With SCP</h2></summary>
-    
+   <summary><h2 id="Moving_Files_With_SCP">Moving Files With SCP</h2></summary>    
     <p>
     We will now use Secure Copy(SCP) to copy files from your computer to the remote server. <br>
     First, we will create a sample file to upload to the server. <br>
@@ -163,8 +162,7 @@ $ scp WhereAmI.java cs15lsp22abc@ieng6.ucsd.edu:~/
   </details>
  
 <details open>
-   <summary><h2 id="Setting_An_SSH_Key">Setting An SSH Key</h2></summary>
-    
+   <summary><h2 id="Setting_An_SSH_Key">Setting An SSH Key</h2></summary>  
     <p>
     To avoid the tedious step of entering a password everytime we <code>ssh</code> or <code>scp</code>, we will set up an SSH key on the server and your computer. A public key on the server and a private key in your client can be used instead of a password to securely log in to the server.
     </p>
