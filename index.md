@@ -35,13 +35,18 @@ After you are finished installing and launch Visual Studio Code, you should be g
   
    <h3 id="Header2a">Install OpenSSH (Windows only)</h3>
     If you are on Windows, install OpenSSH by following the instructions in this link <a href="https://docs.microsoft.com/en-us/windows-server/administration/openssh/openssh_install_firstuse">https://docs.microsoft.com/en-us/windows-server/administration/openssh/openssh_install_firstuse</a>. 
-  </br>
+  <br/>
     You only need to do the steps in either <b>Install OpenSSH using Windows Settings</b> or <b>Install OpenSSH using PowerShell</b>.
     
   <h3 id="Header2b">Looking Up Your Account</h3>
   You can lookup your course-specific account here: <a href="https://sdacs.ucsd.edu/~icc/index.php">https://sdacs.ucsd.edu/~icc/index.php</a> 
-  </br>
+  <br/>
+  Enter your Username and Account ID in the red box. 
   <img src="/docs/assets/images/accountlookup.png" width="800"> 
-   
-   
+  <br/>
+  Your account username is in the green box below. 
+  <img src="/docs/assets/images/accountlookup2.png" width="800"> 
+   <h3 id="Header2c">Connecting with Visual Studio Terminal</h3>
+  Launch Visual Studio code. To access the terminal, press Ctrl/Command + `, or alternatively go to the top-left menu and select Terminal \2192 New Terminal. You should see the terminal in the bottom half of the program like so:
+  <img src="/docs/assets/images/terminal.png" width="800">
 </details>
