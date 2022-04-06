@@ -222,12 +222,11 @@ $ scp WhereAmI.java cs15lsp22abc@ieng6.ucsd.edu:~/
 $ ssh cs15lsp22abc@ieng6.ucsd.edu "javac WhereAmI.java; java WhereAmI"
   </code>
 </pre>    
-<br/>
 Can you do better?
   <br/><br/>  
 Screenshot of one run with my commands:
  <img src="/docs/assets/images/Challenge.png" width="800">   
     
-    
+ <p>It takes about 40 seconds for me to write both commands. However for subsequent runs, I can press &#8593; while in the terminal to automatically load previously used commands into the terminal, which takes me about 5 seconds to do for both.
 
  </details> 
