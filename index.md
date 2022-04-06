@@ -12,7 +12,7 @@ This tutorial will guide you on how to set up remote access for CSE15L. We will 
 <details open>
   <summary><h2 id="Header1">Installing VSCode</h2></summary>
   
-Visual Studio Code is a code editing program that with an integrated terminal, which will allow us to seamlessly write code and upload it to a remote server. 
+Visual Studio Code is a code editing program with an integrated terminal, which will allow us to seamlessly write code and upload it to a remote server. 
   <br/>
 Visual Studio Code supports Windows, macOS, and Linux. 
   <br/>
@@ -45,10 +45,10 @@ After you are finished installing and launch Visual Studio Code, you should be g
   <img src="/docs/assets/images/accountlookup.png" width="800"> 
   <br/>
   Your account username is in the green box below. 
-  <img src="/docs/assets/images/accountlookup2.png" width="800"> 
+  <img src="/docs/assets/images/accountlookup2.png" width="800"> <br/>
   Note: If you haven't already, reset your account password, using the temporary password given to you via email as your current password. 
    <h3 id="Header2c">Connecting with Visual Studio Terminal</h3>
-  Launch Visual Studio code. To access the terminal, press Ctrl/Command + `, or alternatively go to the top-left menu and select Terminal \2192 New Terminal. You should see the terminal in the bottom half of the program like so:
+  Launch Visual Studio code. To access the terminal, press Ctrl/Command + `, or alternatively go to the top-left menu and select Terminal &rarr New Terminal. You should see the terminal in the bottom half of the program like so:
   <img src="/docs/assets/images/terminal.png" width="800">
   <br/>
   Now we will login with the command 
@@ -57,7 +57,7 @@ After you are finished installing and launch Visual Studio Code, you should be g
   $ssh accountusername@ieng6.ucsd.edu
   </code>
 </pre>
-where accountusername is the previously retrieved name from  the account lookup. 
+where accountusername is the previously retrieved name from  the account lookup. <br/>
  Your login command will probably look something like this
     <pre>
   <code>
