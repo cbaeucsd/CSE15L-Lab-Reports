@@ -72,6 +72,16 @@ where accountusername is the previously retrieved name from  the account lookup.
 </pre>
  Note: Do not type or add the $ sign, it is just a symbol that means that shell is accepting commands. 
   <br/><br/>
+ If you are connecting for the first time to this server, you will get this message:
+    <pre>
+  <code>
+The authenticity of host 'ieng6.ucsd.edu (128.54.70.238)' can't be established.
+RSA key fingerprint is SHA256:ksruYwhnYH+sySHnHAtLUHngrPEyZTDl/1x99wUQcec.
+Are you sure you want to continue connecting (yes/no/[fingerprint])?
+  </code>
+</pre>    
+Type yes to continue.<br/><br/>
+    
  After this command it will prompt you with a password which you will now enter. Don't worry if it looks like nothing is changing on the terminal, your password input is being properly received and the lack of response is a security feature.  <br/>
  If you have inputed your login and password correctly, you should now see this in the terminal: <br/>
  <img src="/docs/assets/images/successlogin.png" width="800">
@@ -79,5 +89,37 @@ where accountusername is the previously retrieved name from  the account lookup.
 
 <details open>
    <summary><h2 id="Trying_Some_Commands">Trying Some Commands</h2></summary>
-  
+  Now that we have successfully logged in, we will now try some commands. Try running:
+     <pre>
+  <code>
+  $ cd
+  $ ls
+  $ pwd
+  $ mkdir
+  $ cp
+  </code>
+</pre>   
+on the terminal. Afterwards, log out of the remote server and try these commands again. Note what each command does while logged into the remote server and on your computer. <br/>
+Hint: to log out of the remote server, you can either:<br/>
+    <ul>
+  <li>Press Ctrl + D</li>
+  <li>Run the command <code>exit</code></li>
+</ul>
+    
+Some more specific useful commands you can try are:
+     <pre>
+  <code>
+  $ cd ~
+  $ ls -lat
+  $ ls -a
+  $ ls <directory>
+  </code>
+</pre>   
+where <directory> is /home/linux/ieng6/cs15lsp22/cs15lsp22abc, where the abc is one of the other group members’ username.
+     <pre>
+  <code>
+  $ cp /home/linux/ieng6/cs15lsp22/public/hello.txt ~/
+  $ cat /home/linux/ieng6/cs15lsp22/public/hello.txt
+  </code>
+</pre>  
   </details>
