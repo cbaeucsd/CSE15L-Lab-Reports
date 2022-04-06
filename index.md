@@ -10,7 +10,10 @@ This tutorial will guide you on how to set up remote access for CSE15L. We will 
     <li>2.2 <a href="#Looking_Up_Your_Account">Looking Up Your Account</a></li>
     <li>2.3 <a href="#Connecting_with_Visual_Studio_Terminal">Connecting with Visual Studio Terminal</a></li>      
     </ul>
-<li>3<a href="#Trying_Some_Commands"> Trying Some Commands</a></li>
+<li>3 <a href="#Trying_Some_Commands">Trying Some Commands</a></li>
+<li>4 <a href="#Moving_Files_With_SCP">Moving Files With SCP</a></li>
+<li>4 <a href="#Setting_An_SSH_Key">Setting An SSH Key</a></li>
+<li>5 <a href="#Optimizing_Remote_Running">Optimizing Remote Running</a></li>      
 </ul>
 </div>
 
@@ -89,6 +92,7 @@ Type yes to continue.<br/><br/>
 
 <details open>
    <summary><h2 id="Trying_Some_Commands">Trying Some Commands</h2></summary>
+    
   Now that we have successfully logged in, we will now try some commands. Try running:
      <pre>
   <code>
@@ -125,4 +129,82 @@ where &lt;directory&gt; is /home/linux/ieng6/cs15lsp22/cs15lsp22abc, where the a
   </code>
 </pre>  
 Note what happens and try to guess what these commands do. 
+    <br/><br/>
+  Terminal output after some tests on the server:
+ <img src="/docs/assets/images/testing.png" width="800">    
   </details>
+
+<details open>
+   <summary><h2 id="Moving_Files_With_SCP">Moving Files With SCP</h2></summary>
+    
+    We will now use Secure Copy(SCP) to copy files from your computer to the remote server. <br/>
+    First, we will create a sample file to upload to the server. <br/>
+    Using Visual Studio Code, Create a file called <code>WhereAmI.java</code> and paste the contents in the code block below:
+    <pre>
+  <code>
+class WhereAmI {
+  public static void main(String[] args) {
+    System.out.println(System.getProperty("os.name"));
+    System.out.println(System.getProperty("user.name"));
+    System.out.println(System.getProperty("user.home"));
+    System.out.println(System.getProperty("user.dir"));
+  }
+}
+  </code>
+</pre> 
+Run this file using javac and java on your computer and take a look at the output.<br/><br/>
+Note: To use javac and java in Visual Studio, you will likely have to install an extension called <b>Extension Pack for Java</b>.
+
+Screenshot of running WhereAmI.java on the computer:
+ <img src="/docs/assets/images/WhereAmI.png" width="800">    
+    
+While logged out from the server, run this command from the directory where the file is contained:
+     <pre>
+  <code>
+$ scp WhereAmI.java cs15lsp22abc@ieng6.ucsd.edu:~/
+  </code>
+</pre>    
+ replacing abc with your specific account letters. Enter your password when prompted. <br/><br/>
+  Log into your account with <code>ssh</code>, and use the command <code>ls</code>. You should see the file in your home directory. You can now run it on the server using the same commands as before. Even if your computer doesn't have Java, you will be able to run your file on the server because it has Java installed.<br/>
+  Compare the output from running it on the server and from running it on your computer. What does this tell you about <code>getProperty</code>?<br/><br/>
+   Before proceeding to the next section, try this activity:
+  <ol>
+  <li>Have someone on your team start a timer</li>
+  <li>Make a change to WhereAmI.java and save the file</li>
+  <li>Copy the file to the remote server</li>
+  <li>Log into the remote server and run the file</li>
+  <li>Stop the timer</li>    
+</ol>  
+ Take a note of how long this took you. If you had to do this 100 times, how long would it take? In the next parts, we will work on shortening the time it takes to do this process.
+  </details>
+ 
+<details open>
+   <summary><h2 id="Setting_An_SSH_Key">Setting An SSH Key</h2></summary>
+    
+    To avoid the tedious step of entering a password everytime we <code>ssh</code> or <code>scp</code>, we will set up an SSH key on the server and your computer. A public key on the server and a private key in your client can be used instead of a password to securely log in to the server.<br/><br/>
+
+    On your client, run the command <code>$ ssh-keygen</code> to start generating a key pair. The process should look something like this:<br/>
+     <img src="/docs/assets/images/SSHKeyGen.png" width="800">
+    Note: You are not required to and should not set a passphrase.<br/><br/>
+    You should now have two files in the directory the command was executed, id_rsa and id_rsa.pub. We now need to copy the public key to the server. You can do so wit h the steps below:
+      <pre>
+  <code>
+$ ssh cs15lsp22abc@ieng6.ucsd.edu
+$ mkdir .ssh
+$ logout
+$ scp .ssh/id_rsa.pub cs15lsp22abc@ieng6.ucsd.edu:~/.ssh/authorized_keys
+  </code>
+</pre>    
+Change either the working directory or the first argument of scp to match the file location.<br/>
+If done correctly, you should now be able to <code>ssh</code> and <code>scp</code> without requiring a password input. 
+<br/><br/>   
+Repeat the timing activity of editing and running WhereAmI.java now that you don't have to input a password. How much time did you save per run?
+   </details>   
+   
+ <details open>
+   <summary><h2 id="Optimizing_Remote_Running">Optimizing Remote Running</h2></summary>
+    As a challenge, try to find the quickest, simplest, and/or most pleasant way to make a local edit to WhereAmI.java and copy and run it on the server.
+    
+    
+
+ </details> 
