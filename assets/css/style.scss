@@ -48,3 +48,10 @@ details[open] > summary {
 details summary > * { 
   display: inline-block;
 }
+
+pre code {
+  background-color: #eee;
+  border: 1px solid #999;
+  display: block;
+  padding: 20px;
+}
