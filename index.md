@@ -107,19 +107,22 @@ Hint: to log out of the remote server, you can either:<br/>
 </ul>
     
 Some more specific useful commands you can try are:
-     <pre>
+   <pre>
   <code>
   $ cd ~
   $ ls -lat
   $ ls -a
-  $ ls <directory>
+  $ ls &lt;directory&gt;
   </code>
-</pre>   
-where <directory> is /home/linux/ieng6/cs15lsp22/cs15lsp22abc, where the abc is one of the other group members’ username.
+</pre>
+
+where &lt;directory&gt; is /home/linux/ieng6/cs15lsp22/cs15lsp22abc, where the abc is one of the other group members’ username.
+
      <pre>
   <code>
   $ cp /home/linux/ieng6/cs15lsp22/public/hello.txt ~/
   $ cat /home/linux/ieng6/cs15lsp22/public/hello.txt
   </code>
 </pre>  
+Note what happens and try to guess what these commands do. 
   </details>
