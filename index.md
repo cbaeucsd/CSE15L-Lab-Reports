@@ -12,8 +12,8 @@ This tutorial will guide you on how to set up remote access for CSE15L. We will 
     </ul>
 <li>3 <a href="#Trying_Some_Commands">Trying Some Commands</a></li>
 <li>4 <a href="#Moving_Files_With_SCP">Moving Files With SCP</a></li>
-<li>4 <a href="#Setting_An_SSH_Key">Setting An SSH Key</a></li>
-<li>5 <a href="#Optimizing_Remote_Running">Optimizing Remote Running</a></li>      
+<li>5 <a href="#Setting_An_SSH_Key">Setting An SSH Key</a></li>
+<li>6 <a href="#Optimizing_Remote_Running">Optimizing Remote Running</a></li>      
 </ul>
 </div>
 
@@ -227,6 +227,6 @@ Can you do better?
 Screenshot of one run with my commands:
  <img src="/docs/assets/images/Challenge.png" width="800">   
     
- <p>It takes about 40 seconds for me to write both commands. However for subsequent runs, I can press &#8593; on my keyboard while in the terminal to automatically load previously used commands into the terminal, which takes me about 5 seconds to do for both.
+ <p>It takes about 40 seconds for me to write both commands. However for subsequent runs, I can press &#8593; on my keyboard while in the terminal to automatically load previously used commands into the terminal, which takes me about 5 seconds to do for both.</p>
 
  </details> 
