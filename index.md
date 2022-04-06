@@ -33,14 +33,11 @@ This tutorial will guide you on how to set up remote access for CSE15L. We will 
    <summary><h2 id="Remotely_Connecting">Remotely Connecting</h2></summary>
     <p>We will now use the terminal in Visual Studio Code to connect to your course-specific account. Before we do however, there are some more things to set up.</p>  
    <h3 id="Install_OpenSSH">Install OpenSSH (Windows only)</h3>
-    <p>If you are on Windows, install OpenSSH by following the instructions in this link </p>
-  <a href="https://docs.microsoft.com/en-us/windows-server/administration/openssh/openssh_install_firstuse">https://docs.microsoft.com/en-us/windows-server/administration/openssh/openssh_install_firstuse</a>. 
-  <br/>
-    <p>You only need to do the steps in either <b>Install OpenSSH using Windows Settings</b> or <b>Install OpenSSH using PowerShell</b></p>.
-    
+    <p>If you are on Windows, install OpenSSH by following the instructions in this link <br>
+  <a href="https://docs.microsoft.com/en-us/windows-server/administration/openssh/openssh_install_firstuse">https://docs.microsoft.com/en-us/windows-server/administration/openssh/openssh_install_firstuse</a>. </p>
+    <p>You only need to do the steps in either <b>Install OpenSSH using Windows Settings</b> or <b>Install OpenSSH using PowerShell</b></p>.  
   <h3 id="Looking_Up_Your_Account">Looking Up Your Account</h3>
-  You can lookup your course-specific account here: <a href="https://sdacs.ucsd.edu/~icc/index.php">https://sdacs.ucsd.edu/~icc/index.php</a> 
-  <br/>
+ <p>You can lookup your course-specific account here: <a href="https://sdacs.ucsd.edu/~icc/index.php">https://sdacs.ucsd.edu/~icc/index.php</a></p>
   Enter your Username and Account ID in the red box. 
   <img src="/docs/assets/images/accountlookup.png" width="800"> 
   <br/>
