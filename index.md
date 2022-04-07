@@ -24,9 +24,9 @@ This tutorial will guide you on how to set up remote access for CSE15L. We will 
 <p>Visual Studio Code supports Windows, macOS, and Linux. </p>
 <p>Download and install VSCode at <a href="https://code.visualstudio.com/">https://code.visualstudio.com/</a>.</p>
 <p>Press the button inside the red rectangle to download, use the dropdown button on the right to switch installers if necessary (ex. to a Linux or macOS installer).</p>
-<img src="/docs/assets/images/vsinstall.png" width="800"> <br><br>
+<img src="site.baseurl/docs/assets/images/vsinstall.png" width="800"> <br><br>
 <p>After you are finished installing and launch Visual Studio Code, you should be greeted with a page similar to the one below.</p>
-<img src="/docs/assets/images/vsstart.png" width="800">
+<img src="site.baseurl/docs/assets/images/vsstart.png" width="800">
 </details>
 
 <details open>
@@ -39,13 +39,13 @@ This tutorial will guide you on how to set up remote access for CSE15L. We will 
   <h3 id="Looking_Up_Your_Account">Looking Up Your Account</h3>
  <p>You can lookup your course-specific account here: <a href="https://sdacs.ucsd.edu/~icc/index.php">https://sdacs.ucsd.edu/~icc/index.php</a></p>
   Enter your Username and Account ID in the red box. 
-  <img src="/docs/assets/images/accountlookup.png" width="800"> <br><br>
+  <img src="site.baseurl/docs/assets/images/accountlookup.png" width="800"> <br><br>
   Your account username is in the green box below. 
-  <img src="/docs/assets/images/accountlookup2.png" width="800"> <br><br>
+  <img src="site.baseurl/docs/assets/images/accountlookup2.png" width="800"> <br><br>
   <p>Note: If you haven't already, reset your account password, using the temporary password given to you via email as your current password. </p>
    <h3 id="Connecting_with_Visual_Studio_Code_Terminal">Connecting with Visual Studio Code Terminal</h3>
   <p>Launch Visual Studio code. To access the terminal, press Ctrl/Command + `, or alternatively go to the top-left menu and select <br/> Terminal &#8594; New Terminal. You should see the terminal in the bottom half of the program like so:</p>
-  <img src="/docs/assets/images/terminal.png" width="800"><br><br>
+  <img src="site.baseurl/docs/assets/images/terminal.png" width="800"><br><br>
   <p>Now we will login with the command:
   <pre>
   <code>
@@ -111,7 +111,7 @@ where &lt;directory&gt; is /home/linux/ieng6/cs15lsp22/cs15lsp22abc, where the a
  
 Note what happens and try to guess what these commands do. <br><br>
   Terminal output after some tests on the server:
- <img src="/docs/assets/images/testing.png" width="800">    
+ <img src="site.baseurl/docs/assets/images/testing.png" width="800">    
   </details>
 
 <details open>
@@ -139,7 +139,7 @@ Run this file using javac and java on your computer and take a look at the outpu
 Note: To use javac and java in Visual Studio Code, you will likely have to install an extension called <b>Extension Pack for Java</b>.
 
 Screenshot of running WhereAmI.java on the computer:
- <img src="/docs/assets/images/WhereAmI.png" width="800">    
+ <img src="site.baseurl/docs/assets/images/WhereAmI.png" width="800">    
     
 <p>While logged out from the server, run this command from the directory where the file is contained:</p>
      <pre>
@@ -167,7 +167,7 @@ $ scp WhereAmI.java cs15lsp22abc@ieng6.ucsd.edu:~/
     To avoid the tedious step of entering a password everytime we <code>ssh</code> or <code>scp</code>, we will set up an SSH key on the server and your computer. A public key on the server and a private key in your client can be used instead of a password to securely log in to the server.
     </p>
     <p>On your client, run the command <code>$ ssh-keygen</code> to start generating a key pair. The process should look something like this:</p>
-     <img src="/docs/assets/images/SSHKeyGen.png" width="800"><br>
+     <img src="site.baseurl/docs/assets/images/SSHKeyGen.png" width="800"><br>
     <p>Note: You are not required to and should not set a passphrase.</p>
     You should now have two files in the directory the command was executed, id_rsa and id_rsa.pub. We now need to copy the public key to the server. You can do so with the steps below:    
       <pre>
@@ -212,7 +212,7 @@ $ ssh cs15lsp22abc@ieng6.ucsd.edu "javac WhereAmI.java; java WhereAmI"
 Can you do better?
   <br><br>  
 Screenshot of one run with my commands:
- <img src="/docs/assets/images/Challenge.png" width="800">   
+ <img src="site.baseurl/docs/assets/images/Challenge.png" width="800">   
     
  <p>It takes about 40 seconds for me to write both commands. However for subsequent runs, I can press &#8593; on my keyboard while in the terminal to automatically load previously used commands into the terminal, which takes me about 5 seconds to do for both. </p>
 
