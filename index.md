@@ -97,11 +97,11 @@ Hint: to log out of the remote server, you can either:<br>
 <details open>
    <summary><h3>Testing Summary</h3></summary>
     <img src="{{ site.baseurl}}/docs/assets/images/commandstest.png" width="800"><br>
-    cd: Change Directory is used to change the current working directory, however in this case it did nothing without an operand.
-    ls: List is used to list the files in the working directory. 
-    pwd: Print Working Directory prints the current working directory.
-    mkdir: Make Directory makes a new directory in the current working directory, however in this case it did nothing without an operand.
-    cp: Copy copies a source file/directory to a destination file/directory, however however in this case it did nothing without an operand.
+    <p>cd: Change Directory is used to change the current working directory, however in this case it did nothing without an operand.<br>
+    ls: List is used to list the files in the working directory. <br>
+    pwd: Print Working Directory prints the current working directory.<br>
+    mkdir: Make Directory makes a new directory in the current working directory, however in this case it did nothing without an operand.<br>
+    cp: Copy copies a source file/directory to a destination file/directory, however however in this case it did nothing without an operand.</p>
     </details>
 Some more specific useful commands you can try are:
    <pre>
