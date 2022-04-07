@@ -24,9 +24,9 @@ This tutorial will guide you on how to set up remote access for CSE15L. We will 
 <p>Visual Studio Code supports Windows, macOS, and Linux. </p>
 <p>Download and install VSCode at <a href="https://code.visualstudio.com/">https://code.visualstudio.com/</a>.</p>
 <p>Press the button inside the red rectangle to download, use the dropdown button on the right to switch installers if necessary (ex. to a Linux or macOS installer).</p>
-<img src="/docs/assets/images/vsinstall.png" width="800"> <br><br>
+<img src="../docs/assets/images/vsinstall.png" width="800"> <br><br>
 <p>After you are finished installing and launch Visual Studio Code, you should be greeted with a page similar to the one below.</p>
-<img src="/docs/assets/images/vsstart.png" width="800">
+<img src="../docs/assets/images/vsstart.png" width="800">
 </details>
 
 <details open>
