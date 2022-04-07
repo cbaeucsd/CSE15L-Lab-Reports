@@ -102,6 +102,7 @@ Hint: to log out of the remote server, you can either:<br>
     pwd: Print Working Directory prints the current working directory.<br>
     mkdir: Make Directory makes a new directory in the current working directory, however in this case it did nothing without an operand.<br>
     cp: Copy copies a source file/directory to a destination file/directory, however however in this case it did nothing without an operand.</p>
+    <hr>
     </details>
 Some more specific useful commands you can try are:
    <pre>
