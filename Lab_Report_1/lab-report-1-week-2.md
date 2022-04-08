@@ -226,3 +226,4 @@ Screenshot of one run with my commands:
  <p>It takes about 40 seconds for me to write both commands. However for subsequent runs, I can press &#8593; on my keyboard while in the terminal to automatically load previously used commands into the terminal, which takes me about 5 seconds to do for both. </p>
 
  </details> 
+<script src="{{ site.baseurl}}/js/autoopendetails.js"></script>
