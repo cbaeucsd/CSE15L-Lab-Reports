@@ -61,7 +61,7 @@ Now we will login with the command:
 ```
 $ ssh accountusername@ieng6.ucsd.edu
 ```
-where accountusername is the previously retrieved name from  the account lookup. <br>
+where accountusername should be replaced with the previously retrieved name from the account lookup. <br>
 
 Your login command will probably look something like this:
 ```
@@ -100,14 +100,14 @@ Hint: to log out of the remote server, you can either:<br>
 <li>Press <code>Ctrl</code> + <code>D</code></li>
 <li>Run the command <code>exit</code></li>
 </ul><br>
-<details open>
+<details open markdown="1">
   <summary><h3>Testing Summary</h3></summary>
   <img src="{{ site.baseurl}}/docs/assets/images/commandstest.png" width="800"><br>
-  <p>cd: Change Directory is used to change the current working directory, however in this case it did nothing without an operand.<br>
-  ls: List is used to list the files in the working directory. <br>
-  pwd: Print Working Directory prints the current working directory.<br>
-  mkdir: Make Directory makes a new directory in the current working directory, however in this case it did nothing without an operand.<br>
-  cp: Copy copies a source file/directory to a destination file/directory, however however in this case it did nothing without an operand.</p>
+  - cd: Change Directory is used to change the current working directory, however in this case it did nothing without an operand.
+  - ls: List is used to list the files in the working directory. 
+  - pwd: Print Working Directory prints the current working directory.
+  - mkdir: Make Directory makes a new directory in the current working directory, however in this case it did nothing without an operand.
+  - cp: Copy copies a source file/directory to a destination file/directory, however however in this case it did nothing without an operand.
   </details>
   <hr>
     
