@@ -22,7 +22,7 @@ This tutorial will guide you on how to set up remote access for CSE15L. We will 
   
 <p>Visual Studio Code is a code editing program with an integrated terminal, which will allow us to seamlessly write code and upload it to a remote server. </p>
 <p>Visual Studio Code supports Windows, macOS, and Linux. </p>
-<p>Download and install VSCode at [https://code.visualstudio.com/](https://code.visualstudio.com/).</p>
+<p markdown="1">Download and install VSCode at [https://code.visualstudio.com/](https://code.visualstudio.com/).</p>
 <p>Press the button inside the red rectangle to download, use the dropdown button on the right to switch installers if necessary (ex. to a Linux or macOS installer).</p>
 <img src="{{ site.baseurl}}/docs/assets/images/vsinstall.png" width="800"> <br><br>
 <p>After you are finished installing and launch Visual Studio Code, you should be greeted with a page similar to the one below.</p>
@@ -31,6 +31,7 @@ This tutorial will guide you on how to set up remote access for CSE15L. We will 
 
 <details open markdown="1">
    <summary><h2 id="Remotely_Connecting">Remotely Connecting</h2></summary>
+
     <p>We will now use the terminal in Visual Studio Code to connect to your course-specific account. Before we do however, there are some more things to set up.</p>  
    <h3 id="Install_OpenSSH">Install OpenSSH (Windows only)</h3>
     <p>If you are on Windows, install OpenSSH by following the instructions in this link <br>
