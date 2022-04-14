@@ -51,7 +51,7 @@ This tutorial will guide you on how to set up remote access for CSE15L. We will 
 ```
   $ ssh accountusername@ieng6.ucsd.edu
 ```
-where accountusername is the previously retrieved name from  the account lookup. </p>
+ where accountusername is the previously retrieved name from  the account lookup. </p>
  Your login command will probably look something like this:
 ```
   $ ssh cs15lsp22abc@ieng6.ucsd.edu
@@ -160,8 +160,9 @@ $ scp WhereAmI.java cs15lsp22abc@ieng6.ucsd.edu:~/
   </details>
  
 <details open markdown="1">
-   <summary><h2 id="Setting_An_SSH_Key">Setting An SSH Key</h2></summary>  
-    <p>
+   <summary><h2 id="Setting_An_SSH_Key">Setting An SSH Key</h2></summary> 
+
+    <p markdown="1">
     To avoid the tedious step of entering a password everytime we <code>ssh</code> or <code>scp</code>, we will set up an SSH key on the server and your computer. A public key on the server and a private key in your client can be used instead of a password to securely log in to the server.
     </p>
     <p>On your client, run the command <code>$ ssh-keygen</code> to start generating a key pair. The process should look something like this:</p>
@@ -182,6 +183,7 @@ Repeat the timing activity of editing and running WhereAmI.java now that you don
    
  <details open markdown="1">
    <summary><h2 id="Optimizing_Remote_Running">Optimizing Remote Running</h2></summary>
+   
     As a challenge, try to find the quickest, simplest, and/or most pleasant way to make a local edit to WhereAmI.java and copy and run it on the server.
     <br><br>
     Some hints:<br>
