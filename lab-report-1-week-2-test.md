@@ -33,12 +33,21 @@ This tutorial will guide you on how to set up remote access for CSE15L. We will 
    <summary><h2 id="Remotely_Connecting">Remotely Connecting</h2></summary>
 
     <p>We will now use the terminal in Visual Studio Code to connect to your course-specific account. Before we do however, there are some more things to set up.</p>  
+   
    <h3 id="Install_OpenSSH">Install OpenSSH (Windows only)</h3>
-    <p markdown="1">If you are on Windows, install OpenSSH by following the instructions in this link <br>
-  [https://docs.microsoft.com/en-us/windows-server/administration/openssh/openssh_install_firstuse](https://docs.microsoft.com/en-us/windows-server/administration/openssh/openssh_install_firstuse). </p>
+    <p markdown="1">
+    
+    If you are on Windows, install OpenSSH by following the instructions in this link <br>
+  [https://docs.microsoft.com/en-us/windows-server/administration/openssh/openssh_install_firstuse](https://docs.microsoft.com/en-us/windows-server/administration/openssh/openssh_install_firstuse). 
+  
+  </p>
     <p>You only need to do the steps in either <b>Install OpenSSH using Windows Settings</b> or <b>Install OpenSSH using PowerShell</b>.</p> 
   <h3 id="Looking_Up_Your_Account">Looking Up Your Account</h3>
- <p markdown="1">You can lookup your course-specific account here: [https://sdacs.ucsd.edu/~icc/index.php](https://sdacs.ucsd.edu/~icc/index.php)</p>
+ <p markdown="1">
+ 
+ You can lookup your course-specific account here: [https://sdacs.ucsd.edu/~icc/index.php](https://sdacs.ucsd.edu/~icc/index.php)
+ 
+ </p>
   Enter your Username and Account ID in the red box. 
   <img src="{{ site.baseurl}}/docs/assets/images/accountlookup.png" width="800"> <br><br>
   Your account username is in the green box below. 
@@ -47,11 +56,15 @@ This tutorial will guide you on how to set up remote access for CSE15L. We will 
    <h3 id="Connecting_with_Visual_Studio_Code_Terminal">Connecting with Visual Studio Code Terminal</h3>
   <p>Launch Visual Studio code. To access the terminal, press Ctrl/Command + `, or alternatively go to the top-left menu and select <br/> Terminal &#8594; New Terminal. You should see the terminal in the bottom half of the program like so:</p>
   <img src="{{ site.baseurl}}/docs/assets/images/terminal.png" width="800"><br><br>
-  <p markdown="1">Now we will login with the command:
+  <p markdown="1">
+  
+  Now we will login with the command:
 ```
   $ ssh accountusername@ieng6.ucsd.edu
 ```
- where accountusername is the previously retrieved name from  the account lookup. </p>
+ where accountusername is the previously retrieved name from  the account lookup. 
+ 
+ </p>
  Your login command will probably look something like this:
 ```
   $ ssh cs15lsp22abc@ieng6.ucsd.edu
@@ -99,6 +112,7 @@ Hint: to log out of the remote server, you can either:<br>
     cp: Copy copies a source file/directory to a destination file/directory, however however in this case it did nothing without an operand.</p>
     </details>
     <hr>
+    
 Some more specific useful commands you can try are:
 ```
   $ cd ~
@@ -119,9 +133,11 @@ Note what happens and try to guess what these commands do. <br><br>
 <details open markdown="1">
    <summary><h2 id="Moving_Files_With_SCP">Moving Files With SCP</h2></summary>    
     <p markdown="1">
+
     We will now use Secure Copy(SCP) to copy files from your computer to the remote server. <br>
     First, we will create a sample file to upload to the server. <br>
     Using Visual Studio Code, create a file called ``` WhereAmI.java ``` and paste the contents in the code block below:
+   
     </p>
     
 ```
@@ -163,18 +179,33 @@ $ scp WhereAmI.java cs15lsp22abc@ieng6.ucsd.edu:~/
    <summary><h2 id="Setting_An_SSH_Key">Setting An SSH Key</h2></summary> 
 
     <p markdown="1">
+
     To avoid the tedious step of entering a password everytime we <code>ssh</code> or <code>scp</code>, we will set up an SSH key on the server and your computer. A public key on the server and a private key in your client can be used instead of a password to securely log in to the server.
+
     </p>
-    <p>On your client, run the command <code>$ ssh-keygen</code> to start generating a key pair. The process should look something like this:</p>
+    
+    <p>
+
+    On your client, run the command <code>$ ssh-keygen</code> to start generating a key pair. The process should look something like this:
+
+    </p>
+
      <img src="{{ site.baseurl}}/docs/assets/images/SSHKeyGen.png" width="800"><br>
-    <p>Note: You are not required to and should not set a passphrase.</p>
+    <p>
+
+    Note: You are not required to and should not set a passphrase.
+    
+    </p>
+
     You should now have two files in the directory the command was executed, id_rsa and id_rsa.pub. We now need to copy the public key to the server. You can do so with the steps below:    
+
 ```
 $ ssh cs15lsp22abc@ieng6.ucsd.edu
 $ mkdir .ssh
 $ logout
 $ scp .ssh/id_rsa.pub cs15lsp22abc@ieng6.ucsd.edu:~/.ssh/authorized_keys
 ```  
+
 Change either the working directory or the first argument of scp to match the file location.<br/>
 If done correctly, you should now be able to <code>ssh</code> and <code>scp</code> without requiring a password input. 
 <br><br>   
@@ -183,7 +214,7 @@ Repeat the timing activity of editing and running WhereAmI.java now that you don
    
  <details open markdown="1">
    <summary><h2 id="Optimizing_Remote_Running">Optimizing Remote Running</h2></summary>
-   
+
     As a challenge, try to find the quickest, simplest, and/or most pleasant way to make a local edit to WhereAmI.java and copy and run it on the server.
     <br><br>
     Some hints:<br>
