@@ -159,7 +159,7 @@ Screenshot of running WhereAmI.java on the computer:
 ```
 $ scp WhereAmI.java cs15lsp22abc@ieng6.ucsd.edu:~/
 ```    
-replacing abc with your specific account letters. Enter your password when prompted. <br/><br/>
+replacing <code>abc</code> with your specific account letters. Enter your password when prompted. <br/><br/>
 <p>Log into your account with <code>ssh</code>, and use the command <code>ls</code>. You should see the file in your home directory. You can now run it on the server using the same commands as before. Even if your computer doesn't have Java, you will be able to run your file on the server because it has Java installed.</p>
 Screenshot of running <code>scp</code> and checking with <code>ls</code>:<br>
 <img src="{{ site.baseurl}}/docs/assets/images/usingscp.png" width="800"> <br><br>
