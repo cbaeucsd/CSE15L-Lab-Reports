@@ -56,15 +56,13 @@ Your account username is in the green box below.
 <h3 id="Connecting_with_Visual_Studio_Code_Terminal">Connecting with Visual Studio Code Terminal</h3>
 <p>Launch Visual Studio code. To access the terminal, press <code>Ctrl/Command</code> + <code>`</code>, or alternatively go to the top-left menu and select <br/> Terminal &#8594; New Terminal. You should see the terminal in the bottom half of the program like so:</p>
 <img src="{{ site.baseurl}}/docs/assets/images/terminal.png" width="800"><br><br>
-<p markdown="1">
 
 Now we will login with the command:
 ```
 $ ssh accountusername@ieng6.ucsd.edu
 ```
-where accountusername is the previously retrieved name from  the account lookup. 
+where accountusername is the previously retrieved name from  the account lookup. <br>
 
-</p>
 Your login command will probably look something like this:
 ```
 $ ssh cs15lsp22abc@ieng6.ucsd.edu
@@ -99,7 +97,7 @@ $ cp
 on the terminal. Afterwards, log out of the remote server and try these commands again. Note what each command does while logged into the remote server and on your computer. <br><br>
 Hint: to log out of the remote server, you can either:<br>
 <ul>
-<li>Press Ctrl + D</li>
+<li>Press <code>Ctrl</code> + <code>D</code></li>
 <li>Run the command <code>exit</code></li>
 </ul><br>
 <details open>
@@ -151,7 +149,7 @@ class WhereAmI {
 }
 ```
     
-Run this file using javac and java on your computer and take a look at the output.<br><br>
+Run this file using javac and java on your computer and take a look at the output.<br>
 Note: To use javac and java in Visual Studio Code, you will likely have to install an extension called <b>Extension Pack for Java</b>.
 
 Screenshot of running WhereAmI.java on the computer:
@@ -163,7 +161,7 @@ $ scp WhereAmI.java cs15lsp22abc@ieng6.ucsd.edu:~/
 ```    
 replacing abc with your specific account letters. Enter your password when prompted. <br/><br/>
 <p>Log into your account with <code>ssh</code>, and use the command <code>ls</code>. You should see the file in your home directory. You can now run it on the server using the same commands as before. Even if your computer doesn't have Java, you will be able to run your file on the server because it has Java installed.</p>
-Screenshot of running scp and checking with ls:<br>
+Screenshot of running <code>scp</code> and checking with <code>ls</code>:<br>
 <img src="{{ site.baseurl}}/docs/assets/images/usingscp.png" width="800"> <br><br>
 Compare the output from running it on the server and from running it on your computer. What does this tell you about <code>getProperty</code>?<br><br>
 Before proceeding to the next section, try this activity:
@@ -210,7 +208,7 @@ $ scp .ssh/id_rsa.pub cs15lsp22abc@ieng6.ucsd.edu:~/.ssh/authorized_keys
 
 Change either the working directory or the first argument of scp to match the file location.<br/>
 If done correctly, you should now be able to <code>ssh</code> and <code>scp</code> without requiring a password input. 
-<br><br>   
+<br>   
 Repeat the timing activity of editing and running WhereAmI.java now that you don't have to input a password. How much time did you save per run?
 </details>   
 
@@ -228,14 +226,14 @@ Semicolons can be used to run miltiple commands on one line. Here is an example:
 ```
 $ cp WhereAmI.java OtherMain.java; javac OtherMain.java; java WhereAmI
 ```   
-<br><br>
+<hr>
 The best I could come up with is:
 ```
 $ scp WhereAmI.java cs15lsp22abc@ieng6.ucsd.edu:~/  
 $ ssh cs15lsp22abc@ieng6.ucsd.edu "javac WhereAmI.java; java WhereAmI"
 ```  
 Can you do better?
-<br><br>  
+<br> 
 Screenshot of one run with my commands:
 <img src="{{ site.baseurl}}/docs/assets/images/Challenge.png" width="800">   
 
