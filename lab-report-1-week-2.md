@@ -121,7 +121,7 @@ $ cp /home/linux/ieng6/cs15lsp22/public/hello.txt ~/
 $ cat /home/linux/ieng6/cs15lsp22/public/hello.txt  
 ```
 
-where <code>&lt;directory&gt;</code> is </code>/home/linux/ieng6/cs15lsp22/cs15lsp22abc</code>, where the abc is one of the other group members’ username.
+where <code>&lt;directory&gt;</code> is <code>/home/linux/ieng6/cs15lsp22/cs15lsp22abc</code>, where the abc is one of the other group members’ username.
 
 Note what happens and try to guess what these commands do. <br><br>
 Terminal output after some tests on the server:
