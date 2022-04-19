@@ -3,7 +3,7 @@ This lab report will go over three bugs that I have fixed in the given Markdown 
 <div id="toc_container">
 <p class="toc_title">Contents</p>
 <ul class="toc_list">
-<li>1 <a href="#Bug_1">Bug 1</a></li>
+<li>1 <a href="#Bug_One">Bug One</a></li>
 <li>2 <a href="#Remotely_Connecting">Bug 2</a></li>
 <li>3 <a href="#Trying_Some_Commands">Bug 3</a></li>
      
@@ -11,15 +11,14 @@ This lab report will go over three bugs that I have fixed in the given Markdown 
 </div>
 
 <details open markdown="1">
-<summary><h2 id="Installing_VSCode">Installing VSCode</h2></summary>
+<summary><h2 id="Bug_One">Bug One</h2></summary>
 
-<p>Visual Studio Code is a code editing program with an integrated terminal, which will allow us to seamlessly write code and upload it to a remote server. </p>
-<p>Visual Studio Code supports Windows, macOS, and Linux. </p>
-<p markdown="1">Download and install VSCode at [https://code.visualstudio.com/](https://code.visualstudio.com/).</p>
-<p>Press the button inside the red rectangle to download, use the dropdown button on the right to switch installers if necessary (ex. to a Linux or macOS installer).</p>
-<img src="{{ site.baseurl}}/docs/assets/images/vsinstall.png" width="800"> <br><br>
-<p>After you are finished installing and launch Visual Studio Code, you should be greeted with a page similar to the one below.</p>
-<img src="{{ site.baseurl}}/docs/assets/images/vsstart.png" width="800">
+Code Change:
+<img src="{{ site.baseurl}}/docs/assets/images/lab-report-2/Bug_1_change.png" width="800"> <br>
+Link to test file that causes symptom:
+[https://github.com/cbaeucsd/markdown-parser/blob/main/testbreak2.md](https://github.com/cbaeucsd/markdown-parser/blob/main/testbreak2.md)
+Symptom of bug:
+<img src="{{ site.baseurl}}/docs/assets/images/lab-report-2/Bug_1_symptom.png" width="800">
 </details>
 
 <details open markdown="1">
