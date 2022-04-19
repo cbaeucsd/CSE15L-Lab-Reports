@@ -16,7 +16,7 @@ This lab report will go over three bugs that I have fixed in the given Markdown 
 Code Change:
 <img src="{{ site.baseurl}}/docs/assets/images/lab-report-2/Bug_1_change.png" width="800"> <br>
 Link to test file that causes symptom:
-[https://github.com/cbaeucsd/markdown-parser/blob/main/testbreak2.md](https://github.com/cbaeucsd/markdown-parser/blob/main/testbreak2.md)
+[https://github.com/cbaeucsd/markdown-parser/blob/main/testbreak2.md](https://github.com/cbaeucsd/markdown-parser/blob/main/testbreak2.md)<br>
 Symptom of bug:
 <img src="{{ site.baseurl}}/docs/assets/images/lab-report-2/Bug_1_symptom.png" width="800">
 </details>
