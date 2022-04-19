@@ -1,5 +1,6 @@
 <h1>Improving Markdown Parse</h1>
-This lab report will go over three bugs that I have fixed in the given Markdown Parse. 
+This lab report will go over three bugs that I have fixed in the given Markdown Parse. <br><br>
+Note: Bug One and Bug Two use the same code change and test file due to only doing 1 commit instead of 2 for two changes.
 <div id="toc_container">
 <p class="toc_title">Contents</p>
 <ul class="toc_list">
@@ -20,7 +21,7 @@ Link to test file that causes symptom:<br>
 Symptom of bug:<br>
 <img src="{{ site.baseurl}}/docs/assets/images/lab-report-2/Bug_1_symptom.png" width="800"><br>
 <h4> Summary:</h4>
-This file has a period at the end of the file. If the closed parenthesis was not the last character in the file, the program would start the loop again and search for a open bracket, but since it could not, it returns negative 1 for <code>indexOf</code>. This then causes the loop to start from the beginning of the file to find the rest of the characters, causing an infinite loop. The symptom of this loop causes us to run out of memory as we keep filling up the ArrayList with the same links over and over again. 
+If the closed parenthesis was not the last character in the file (this one ends in a period), the program would start the loop again and search for a open bracket, but since it could not, it returns negative 1 for <code>indexOf</code>. This then causes the loop to start from the beginning of the file to find the rest of the characters, causing an infinite loop. The symptom of this loop causes us to run out of memory as we keep filling up the ArrayList with the same links over and over again, so we fix it by adding an if statement with <code>openBracket != -1</code>. 
 </details>
 
 <details open markdown="1">
@@ -31,9 +32,9 @@ Code Change:
 Link to test file that causes symptom:<br>
 [https://github.com/cbaeucsd/markdown-parser/blob/main/testbreak2.md](https://github.com/cbaeucsd/markdown-parser/blob/main/testbreak2.md)<br>
 Symptom of bug:<br>
-<img src="{{ site.baseurl}}/docs/assets/images/lab-report-2/Bug_1_symptom.png" width="800"><br>
+<img src="{{ site.baseurl}}/docs/assets/images/lab-report-2/Bug_2_symptom.png" width="800"><br>
 <h4> Summary:</h4>
-This file has a period at the end of the file. If the closed parenthesis was not the last character in the file, the program would start the loop again and search for a open bracket, but since it could not, it returns negative 1 for <code>indexOf</code>. This then causes the loop to start from the beginning of the file to find the rest of the characters, causing an infinite loop. The symptom of this loop causes us to run out of memory as we keep filling up the ArrayList with the same links over and over again. 
+This file has a set of brackets and a set of parenthesis that are separated from each other by text, and therefore whatever is in the parenthesis should not be saved, but they are, causing us to have three elements in our ArrayList instead of two. To fix this, we add an extra condition to our if condition <code>closeBracket + 1 == openParen</code> to make sure the brackets and parenthesis are next to each other.
 </details>
 
 <details open markdown="1">
