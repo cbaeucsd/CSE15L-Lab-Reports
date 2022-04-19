@@ -6,7 +6,7 @@ Note: Bug One and Bug Two use the same code change and test file due to only doi
 <ul class="toc_list">
 <li>1 <a href="#Bug_One">Bug One</a></li>
 <li>2 <a href="#Bug_Two">Bug Two</a></li>
-<li>3 <a href="#Bug_Three">Bug_Three</a></li>
+<li>3 <a href="#Bug Three">Bug_Three</a></li>
      
 </ul>
 </div>
@@ -14,7 +14,7 @@ Note: Bug One and Bug Two use the same code change and test file due to only doi
 <details open markdown="1">
 <summary><h2 id="Bug_One">Bug One</h2></summary>
 
-Code Change:
+Code Change:<br>
 <img src="{{ site.baseurl}}/docs/assets/images/lab-report-2/Bug_1_change.png" width="800"> <br>
 Link to test file that causes symptom:<br>
 [https://github.com/cbaeucsd/markdown-parser/blob/main/testbreak2.md](https://github.com/cbaeucsd/markdown-parser/blob/main/testbreak2.md)<br>
