@@ -47,7 +47,7 @@ Link to test file that causes symptom:<br>
 Symptom of bug:<br>
 <img src="{{ site.baseurl}}/docs/assets/images/lab-report-2/Bug_3_symptom.png" width="800"><br><br>
 <h4> Summary:</h4>
-This file has a image link and our program saves that link. For our purposes, let's assume we don't want any image links saved. We can add more conditions (added as an additional if statement for readability?) to make sure we don't save image links, which in this case is <code>openBracket == 0 || markdown.charAt(openBracket-1</code>.
+This file has a image link and our program saves that link. For our purposes, let's assume we don't want any image links saved, which means we should have one link instead of two. We can add more conditions (added as an additional if statement for readability?) to make sure we don't save image links, which in this case is <code>openBracket == 0 || markdown.charAt(openBracket-1</code>.
 </details>
 
 <script src="{{ site.baseurl}}/js/autoopendetails.js"></script>
