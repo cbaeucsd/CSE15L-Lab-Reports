@@ -6,7 +6,7 @@ Note: Bug One and Bug Two use the same code change and test file due to only doi
 <ul class="toc_list">
 <li>1 <a href="#Bug_One">Bug One</a></li>
 <li>2 <a href="#Bug_Two">Bug Two</a></li>
-<li>3 <a href="#Bug_Three">BugThree</a></li>
+<li>3 <a href="#Bug_Three">Bug Three</a></li>
      
 </ul>
 </div>
