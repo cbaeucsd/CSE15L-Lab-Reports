@@ -1,16 +1,9 @@
-# Header 1  
-**Hello world!**  
-I like to italicize *random* words.  
-> This is a quote
-> 1. Step 1
-> 2. Step 2
-> 3. Step 3
+# CSE15L Lab Reports
 
-- Apples
-- Bananas
-- Oranges
-
-`int a = b;`
----
-[Youtube](www.youtube.com)
-![pain](https://cbaeucsd.github.io/CSE15L-Remote-Access/docs/assets/images/vsinstall.png)
+## Links:
+### Lab Report 1 - Week 2:
+[CSE15L Tutorial: Setting Up Remote Access
+](https://cbaeucsd.github.io/CSE15L-Lab-Reports/lab-report-1-week-2.html)
+### Lab Report 2 - Week 3:
+[Improving Markdown Parse
+](https://cbaeucsd.github.io/CSE15L-Lab-Reports/lab-report-2-week-4.html)
