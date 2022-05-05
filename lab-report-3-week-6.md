@@ -38,7 +38,7 @@ Success! We can see the commit here:<br>
 <details open markdown="1">
   <summary><h2 id="GC_3">Group Choice 3 – Copy Whole Directories with scp -r</h2></summary>
   We use scp recursively to copy the contents to a markdown-parse folder in our account.
-  <img src="{{ site.baseurl}}/docs/assets/images/lab-report-3/recursivescpss.png" width="800"> <br><br>
+  <img src="{{ site.baseurl}}/docs/assets/images/lab-report-3/recursivescp.png" width="800"> <br><br>
   We now test our markdown-parse from our account.
   <img src="{{ site.baseurl}}/docs/assets/images/lab-report-3/runningtests.png" width="800"> <br><br>
   We can do everything in one line like so:
