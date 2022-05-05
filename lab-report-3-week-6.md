@@ -26,8 +26,14 @@ Success!
 
 <details open markdown="1">
 <summary><h2 id="GC_2">Group Choice 2 – Set up Github Access from ieng6</h2></summary>
-
-
+We create and move the SSH key files to our account.
+<img src="{{ site.baseurl}}/docs/assets/images/lab-report-3/rsa_location.png" width="800"> <br><br>
+After following the instructions, we set up the SSH key on our Github account.
+<img src="{{ site.baseurl}}/docs/assets/images/lab-report-3/rsa_github.png" width="800"> <br><br>
+To test if our keys work, we commit and push from our ieng6 account.
+<img src="{{ site.baseurl}}/docs/assets/images/lab-report-3/gitcommit.png" width="800"> <br><br>
+Success! We can see the commit here:<br>
+[https://github.com/cbaeucsd/markdown-parser/commit/870ed6612eca523d47591542495d25efc3636e1f](https://github.com/cbaeucsd/markdown-parser/commit/870ed6612eca523d47591542495d25efc3636e1f)
 </details>
 
 <details open markdown="1">
