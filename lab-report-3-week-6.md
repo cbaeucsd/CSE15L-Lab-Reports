@@ -46,6 +46,7 @@ Success! We can see the commit here:<br>
   scp -r . ieng6:~/markdown-parse;ssh ieng6 "cd markdown-parse;/software/CSE/oracle-java-17/jdk-17.0.1/bin/javac -cp .:lib/junit-4.13.2.jar:lib/hamcrest-core-1.3.jar MarkdownParseTest.java;/software/CSE/oracle-java-17/jdk-17.0.1/bin/java -cp .:lib/junit-4.13.2.jar:lib/hamcrest-core-1.3.jar org.junit.runner.JUnitCore MarkdownParseTest";
   ```
   <img src="{{ site.baseurl}}/docs/assets/images/lab-report-3/runall.png" width="800"> <br><br>
+  Now we can upload and test with only 1 (long) line of commands!
 </details>
 
 <script src="{{ site.baseurl}}/js/autoopendetails.js"></script>
