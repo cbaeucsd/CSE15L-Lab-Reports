@@ -19,19 +19,20 @@ We create a config file in the .ssh folder using notepad.
 <img src="{{ site.baseurl}}/docs/assets/images/lab-report-3/creating_config.png" width="800"> <br><br>
 We then test if we can now login using the simplified method<br>
 <img src="{{ site.baseurl}}/docs/assets/images/lab-report-3/login.png" width="800"><br><br>
+Seeing that we succesfully logged in, we now test scp with this simplified method.
+<img src="{{ site.baseurl}}/docs/assets/images/lab-report-3/scp.png" width="800"><br><br>
+Success!
 </details>
 
 <details open markdown="1">
 <summary><h2 id="GC_2">Group Choice 2 – Set up Github Access from ieng6</h2></summary>
 
-Code Change:<br>
 
 </details>
 
 <details open markdown="1">
   <summary><h2 id="GC_3">Group Choice 3 – Copy Whole Directories with scp -r</h2></summary>
   
-Code Changes:<br>
 
 </details>
 
