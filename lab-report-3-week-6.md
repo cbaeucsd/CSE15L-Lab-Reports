@@ -14,7 +14,6 @@ This lab report will go over the process of implementing the three group choices
 <details open markdown="1">
 <summary><h2 id="GC_1">Group Choice 1 – Streamline ssh Configuration</h2></summary>
 
-Code Change:<br>
 We create a config file in the .ssh folder using notepad.
 <img src="{{ site.baseurl}}/docs/assets/images/lab-report-3/creating_config.png" width="800"> <br><br>
 We then test if we can now login using the simplified method<br>
