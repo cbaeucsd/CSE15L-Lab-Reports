@@ -24,7 +24,16 @@ Markdown Parse should produce
 <img src="{{ site.baseurl}}/docs/assets/images/lab-report-4/S1_testcode.png" width="800"> <br>
 Test Code<br><br>
 <img src="{{ site.baseurl}}/docs/assets/images/lab-report-4/S1_mainfail.png" width="800"> <br>
+Output of my repository, did not store any of the needed links<br><br>
 <img src="{{ site.baseurl}}/docs/assets/images/lab-report-4/S1_altfail.png" width="800"> <br>
+Output of other group's repository, stored one incorrect link<br><br>
+We would have to find the first \`, and check if it occurs between a bracket parenthesis pair. If it does,
+we check if a second one occurs before the closed bracket or parenthesis, or after. If it happens after, then we disregard it. 
+If the first \` happens outside a bracket parenthesis pair, we must then disregard everything between it and the second \`.
+We repeat finding "first" and "second" \` until we finish reading the file.
+We must also alter our overspecific isValidURL method to account for this character.
+Overall, this would take a lot more than 10 lines of code.
+I 
 
 </details>
 
@@ -36,7 +45,11 @@ Markdown Parse should produce
 <img src="{{ site.baseurl}}/docs/assets/images/lab-report-4/S2_testcode.png" width="800"> <br>
 Test Code<br><br>
 <img src="{{ site.baseurl}}/docs/assets/images/lab-report-4/S2_mainfail.png" width="800"> <br>
+Output of my repository, did not store any of the needed links<br><br>
 <img src="{{ site.baseurl}}/docs/assets/images/lab-report-4/S2_altfail.png" width="800"> <br>
+Output of other group's repository, stored one link incorrectly<br><br>
+We must alter our overspecific isValidURL method to account for non-typical URLs.
+Otherwise, the main thing we need to fix would be for nested parenthesized URLs. We would have to count how many ( are after the first, and make sure we get the full link at the right ). If there aren't enough ) for each (, we do not have a valid hyperlink. This part could potentially be done in around 7-20 lines of code, or could require a major redesign of the code. 
 
 </details>
 
@@ -48,7 +61,11 @@ Test Code<br><br>
 <img src="{{ site.baseurl}}/docs/assets/images/lab-report-4/S3_testcode.png" width="800"> <br>
 Test Code<br><br>
 <img src="{{ site.baseurl}}/docs/assets/images/lab-report-4/S3_mainfail.png" width="800"> <br>
+Output of my repository, did not store the needed link<br><br>
 <img src="{{ site.baseurl}}/docs/assets/images/lab-report-4/S3_altfail.png" width="800"> <br>
+Output of other group's repository, did not store the needed link<br><br>
+We must alter our overspecific isValidURL method to account for non-typical URLs.
+Otherwise, the rules regarding line breaks seems a bit complicated. We can't have two line breaks in a row between our brackets, and we can only have singular line breaks between our parenthesis, but only right after the opening or right before the closing parenthesis. This would probably take 10-20 lines of code, assuming no major redesign of the code is needed, which it likely is. 
 </details>
 
 <script src="{{ site.baseurl}}/js/autoopendetails.js"></script>
