@@ -1,5 +1,5 @@
 <h1>Implementing Group Choices</h1>
-This lab report will go over the process of implementing the three group choices from Lab 5. <br><br>
+This lab report will go over the process of implementing the three group choices from Lab 5. <br>
 
 [My Markdown Parse Link](https://github.com/cbaeucsd/markdown-parser) <br>
 [Other Group's MD Parse Link](https://github.com/Trinnnn/markdown-parser)<br><br>
@@ -21,9 +21,9 @@ We will assume that we want our Markdown Parse to only output links that would b
 Markdown Parse should produce 
 ["\`google.com","google.com","ucsd.edu"].
 
-<img src="{{ site.baseurl}}/docs/assets/images/lab-report-4/s1_testcode.png" width="800"> <br>
+<img src="{{ site.baseurl}}/docs/assets/images/lab-report-4/S1_testcode.png" width="800"> <br>
 Test Code<br><br>
-<img src="{{ site.baseurl}}/docs/assets/images/lab-report-4/s1_altfail.png" width="800"> <br>
+<img src="{{ site.baseurl}}/docs/assets/images/lab-report-4/S1_altfail.png" width="800"> <br>
 
 </details>
 
@@ -32,9 +32,9 @@ Test Code<br><br>
 Markdown Parse should produce 
 ["a.com","a.com(())","example.com"].
 
-<img src="{{ site.baseurl}}/docs/assets/images/lab-report-4/s2_testcode.png" width="800"> <br>
+<img src="{{ site.baseurl}}/docs/assets/images/lab-report-4/S2_testcode.png" width="800"> <br>
 Test Code<br><br>
-<img src="{{ site.baseurl}}/docs/assets/images/lab-report-4/s2_altfail.png" width="800"> <br>
+<img src="{{ site.baseurl}}/docs/assets/images/lab-report-4/S2_altfail.png" width="800"> <br>
 
 </details>
 
@@ -43,9 +43,9 @@ Test Code<br><br>
   Markdown Parse should produce 
 ["https://sites.google.com/eng.ucsd.edu/cse-15l-spring-2022/schedule"].
 
-<img src="{{ site.baseurl}}/docs/assets/images/lab-report-4/s3_testcode.png" width="800"> <br>
+<img src="{{ site.baseurl}}/docs/assets/images/lab-report-4/S3_testcode.png" width="800"> <br>
 Test Code<br><br>
-<img src="{{ site.baseurl}}/docs/assets/images/lab-report-4/s3_altfail.png" width="800"> <br>
+<img src="{{ site.baseurl}}/docs/assets/images/lab-report-4/S3_altfail.png" width="800"> <br>
 </details>
 
 <script src="{{ site.baseurl}}/js/autoopendetails.js"></script>
