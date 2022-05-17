@@ -49,7 +49,7 @@ Output of my repository, did not store any of the needed links<br><br>
 <img src="{{ site.baseurl}}/docs/assets/images/lab-report-4/S2_altfail.png" width="800"> <br>
 Output of other group's repository, stored one link incorrectly<br><br>
 We must alter our overspecific isValidURL method to account for non-typical URLs.
-Otherwise, the main thing we need to fix would be for nested parenthesized URLs. We would have to count how many ( are after the first, and make sure we get the full link at the right ). If there aren't enough ) for each (, we do not have a valid hyperlink. This part could potentially be done in around 7-20 lines of code, or could require a major redesign of the code. 
+Otherwise, the main thing we need to fix would be for nested parenthesized URLs. We would have to count how many ( are after the first, and make sure we get the full link at the right ). If there aren't enough ) for each (, we do not have a valid hyperlink. This part could potentially be done in around 13-20 lines of code. 
 
 </details>
 
