@@ -23,6 +23,7 @@ Markdown Parse should produce
 
 <img src="{{ site.baseurl}}/docs/assets/images/lab-report-4/S1_testcode.png" width="800"> <br>
 Test Code<br><br>
+<img src="{{ site.baseurl}}/docs/assets/images/lab-report-4/S1_mainfail.png" width="800"> <br>
 <img src="{{ site.baseurl}}/docs/assets/images/lab-report-4/S1_altfail.png" width="800"> <br>
 
 </details>
@@ -34,6 +35,7 @@ Markdown Parse should produce
 
 <img src="{{ site.baseurl}}/docs/assets/images/lab-report-4/S2_testcode.png" width="800"> <br>
 Test Code<br><br>
+<img src="{{ site.baseurl}}/docs/assets/images/lab-report-4/S2_mainfail.png" width="800"> <br>
 <img src="{{ site.baseurl}}/docs/assets/images/lab-report-4/S2_altfail.png" width="800"> <br>
 
 </details>
@@ -45,6 +47,7 @@ Test Code<br><br>
 
 <img src="{{ site.baseurl}}/docs/assets/images/lab-report-4/S3_testcode.png" width="800"> <br>
 Test Code<br><br>
+<img src="{{ site.baseurl}}/docs/assets/images/lab-report-4/S3_mainfail.png" width="800"> <br>
 <img src="{{ site.baseurl}}/docs/assets/images/lab-report-4/S3_altfail.png" width="800"> <br>
 </details>
 
