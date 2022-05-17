@@ -33,7 +33,7 @@ If the first \` happens outside a bracket parenthesis pair, we must then disrega
 We repeat finding "first" and "second" \` until we finish reading the file.
 We must also alter our overspecific isValidURL method to account for this character.
 Overall, this would take a lot more than 10 lines of code.
-I 
+
 
 </details>
 
