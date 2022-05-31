@@ -51,5 +51,4 @@ Otherwise, the main thing we need to fix would be for nested parenthesized URLs.
 
 </details>
 
-
 <script src="{{ site.baseurl}}/js/autoopendetails.js"></script>
