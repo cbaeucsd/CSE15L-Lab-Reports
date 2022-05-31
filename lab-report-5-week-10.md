@@ -1,8 +1,12 @@
 <h1>Testing Markdown Parse - Part 2</h1>
 We will test and analyze our Markdown Parse with help from vimdiff. <br>
 
-[My Markdown Parse Link](https://github.com/cbaeucsd/markdown-parser) <br>
+[My Markdown Parse Link](https://github.com/cbaeucsd/markdown-parser)  <br>
+[Shared CSE15L Markdown Parse Link](https://github.com/nidhidhamnani/markdown-parser) <br>
 We will assume that we want our Markdown Parse to only output links that would be hyperlinked.
+
+Using Vimdiff, we can see many files that have different outputs for my Markdown Parse and the shared one. For this assignment we will look at test files 14 and 194.md.
+<img src="{{ site.baseurl}}/docs/assets/images/lab-report-4/vimdiff.png" width="800"> <br>
 
 <div id="toc_container">
 <p class="toc_title">Contents</p>
