@@ -50,7 +50,7 @@ We can see that Markdown Parse should produce <br>
 <img src="{{ site.baseurl}}/docs/assets/images/lab-report-5/194results.png" width="800"> <br>
 With vimdiff, we can see that our Markdown Parse produced [], the correct result, while the shared Markdown Parse created [url], Both are incorrect.
 
-This test file causes a incorrect result for both Markdown Parses because the syntax uses is very different from the simple brackets and parenthesis we have previously checked for. With this syntax, it is extremely improbable that a correct result from either parser will be created.
+This test file causes a incorrect result for both Markdown Parses because the syntax used is very different from the simple brackets and parenthesis we have previously checked for. With this syntax, it is extremely improbable that a correct result from either parser will be created.
 
 <img src="{{ site.baseurl}}/docs/assets/images/lab-report-5/194fix.png" width="800"> <br>
 To account for this case would require a massive amount of new code, the current highlighted area should be moved to a helper method, and a new helper method to account for this 'new' syntax case would have to be created, which can take up to hundreds of lines of code, if we also include the fact that we need to add code to distingush which helper method to use. 
