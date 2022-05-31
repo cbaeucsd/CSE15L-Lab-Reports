@@ -27,6 +27,13 @@ We can see that Markdown Parse should produce <br>
 [] <br><br>
 
 
+<img src="{{ site.baseurl}}/docs/assets/images/lab-report-5/14result.png" width="800"> <br>
+With vimdiff, we can see that our Markdown Parse produced [], the correct result, while the shared Markdown Parse created [/foo], which is incorrect.
+
+This test file causes a incorrect result for the shared Markdown Parse as it does not account for backslashes before the bracket. Since backslash is an escape character, it does not cause Markdown to create a hyperlink with the syntax that is typically associated with it. 
+
+<img src="{{ site.baseurl}}/docs/assets/images/lab-report-5/14fix.png" width="800"> <br>
+We could potentially add a check for the escape character within or after the check to see if all needed syntax characters are there(highlighted).
 
 </details>
 
