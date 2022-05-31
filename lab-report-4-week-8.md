@@ -1,5 +1,5 @@
-<h1>Implementing Group Choices</h1>
-This lab report will go over the process of implementing the three group choices from Lab 5. <br>
+<h1>Testing Markdown Parse</h1>
+We will test our and another group's Markdown Parse <br>
 
 [My Markdown Parse Link](https://github.com/cbaeucsd/markdown-parser) <br>
 [Other Group's MD Parse Link](https://github.com/Trinnnn/markdown-parser)<br><br>
