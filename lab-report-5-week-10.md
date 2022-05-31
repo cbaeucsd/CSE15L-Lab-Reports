@@ -27,12 +27,33 @@ We can see that Markdown Parse should produce <br>
 [] <br><br>
 
 
+<img src="{{ site.baseurl}}/docs/assets/images/lab-report-5/14results.png" width="800"> <br>
+With vimdiff, we can see that our Markdown Parse produced [], the correct result, while the shared Markdown Parse created [/foo], which is incorrect.
+
+This test file causes a incorrect result for the shared Markdown Parse as it does not account for backslashes before the bracket. Since backslash is an escape character, it does not cause Markdown to create a hyperlink with the syntax that is typically associated with it. 
+
+<img src="{{ site.baseurl}}/docs/assets/images/lab-report-5/14fix.png" width="800"> <br>
+We could potentially add a check for the escape character within or after the check to see if all needed syntax characters are there(highlighted).
 
 </details>
 
 <details open markdown="1">
 <summary><h2 id="T_2">194.md</h2></summary>
+[194.md](https://github.com/nidhidhamnani/markdown-parser/blob/main/test-files/194.md) <br>
 
+Preview of 194.md<br>
+<img src="{{ site.baseurl}}/docs/assets/images/lab-report-5/194preview.png" width="800"> <br>
+We can see that Markdown Parse should produce <br>
+[my_(url)] <br><br>
+
+
+<img src="{{ site.baseurl}}/docs/assets/images/lab-report-5/194results.png" width="800"> <br>
+With vimdiff, we can see that our Markdown Parse produced [], the correct result, while the shared Markdown Parse created [url], Both are incorrect.
+
+This test file causes a incorrect result for both Markdown Parses because the syntax uses is very different from the simple brackets and parenthesis we have previously checked for. With this syntax, it is extremely improbable that a correct result from either parser will be created.
+
+<img src="{{ site.baseurl}}/docs/assets/images/lab-report-5/194fix.png" width="800"> <br>
+To account for this case would require a massive amount of new code, the current highlighted area should be moved to a helper method, and a new helper method to account for this 'new' syntax case would have to be created, which can take up to hundreds of lines of code, if we also include the fact that we need to add code to distingush which helper method to use. 
 
 </details>
 
