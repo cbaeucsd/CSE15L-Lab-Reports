@@ -13,3 +13,6 @@
 ### Lab Report 4 - Week 8:
 [Testing Markdown Parse
 ](https://cbaeucsd.github.io/CSE15L-Lab-Reports/lab-report-4-week-8.html)
+### Lab Report 5 - Week 10:
+[Testing Markdown Parse - Part 2
+](https://cbaeucsd.github.io/CSE15L-Lab-Reports/lab-report-5-week-10.html)
